@@ -23,8 +23,7 @@
 /* General styles */
 body {
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    
     /* Generic project styles */
     color: var(--primary-color);
     font-family: var(--secondary-font);
@@ -62,17 +61,7 @@ h1{
 }
 
 header{
-    margin-top: 263.4px;
     color:white;   
-}
-
-.container,.row{
-    border:2px solid grey;
-}
-
-.col-12{
-    border:2px solid white;
-    background-color: lightgrey;
 }
 
 #menu{
@@ -91,9 +80,19 @@ header{
 
 /* Main Section */
 main{
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
+    margin-top: 263.4px;
+    background-color:lightblue;
     
+}
+
+.container,.row{
+    border:2px solid grey;
+
+}
+
+.col-12{
+    border:2px solid white;
+    background-color: lightgrey;
 }
 
 footer{
