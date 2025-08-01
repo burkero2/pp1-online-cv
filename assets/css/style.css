@@ -1,0 +1,21 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
+
+body{
+    font-family: "Mozilla Headline", sans-serif;
+}
+
+header{
+    background-color: lightpink;
+    height: 20vh;
+}
+
+main{
+    background-color: lightblue;
+    height: 80vh;
+}
+
+footer{
+    background-color: lightpink;
+    height: 20vh;
+}
