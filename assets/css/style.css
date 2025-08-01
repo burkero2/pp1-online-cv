@@ -1,21 +1,37 @@
 /* Google Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
-
-body{
-    font-family: "Mozilla Headline", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&family=Playwrite+HU:wght@100..400&display=swap');
+/* Asterisk wildcardto override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+}
+
 
 header{
     background-color: lightpink;
-    height: 20vh;
+   
+}
+
+header img{
+    width:20vw;
 }
 
 main{
-    background-color: lightblue;
-    height: 80vh;
+    background-color:lightgrey;
+    flex: 1 0 auto;
 }
 
 footer{
-    background-color: lightpink;
-    height: 20vh;
+    background-color: lightblue;
 }
